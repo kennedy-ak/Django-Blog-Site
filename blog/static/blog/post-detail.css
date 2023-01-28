@@ -112,3 +112,48 @@ main{
     border-radius:6px ;
     border: 1px solid #ccc;
 }
+
+.errorlist{
+    list-style: none;
+    margin:0.5rem 0 ;
+    padding: 0;
+    color: red;
+}
+
+.invalid label{
+    color: red;
+}
+.ivalid input,
+.input textarea{
+    border-color: red;
+    background-color: #d6000b;
+}
+
+#comments{
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 60rem;
+    border-radius: 12px;
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+#comments ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#comments li{
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ccc ;
+}
+
+#comments li:last-of-type{
+    border-bottom: none;
+
+}
+
+#comments h2{
+    color:#464646;
+}
